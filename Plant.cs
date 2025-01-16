@@ -19,4 +19,5 @@ public class Plant
     public string City { get; set; }
     public string ZIP { get; set; }
     public bool Sold { get; set; }
+    public DateTime AvailableUntil { get; set; }
 }
